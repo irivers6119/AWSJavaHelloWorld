@@ -10,12 +10,11 @@
 
     <dependencyManagement>
         <dependencies>
+            <!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-dynamodb -->
             <dependency>
                 <groupId>com.amazonaws</groupId>
-                <artifactId>aws-java-sdk-bom</artifactId>
-                <version>1.10.43</version>
-                <type>pom</type>
-                <scope>import</scope>
+                <artifactId>aws-java-sdk-dynamodb</artifactId>
+                <version>1.12.161</version>
             </dependency>
 
 
@@ -25,10 +24,11 @@
 
     <dependencies>
 
+        <!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk -->
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk</artifactId>
-            <version>1.11.6</version>
+            <version>1.12.161</version>
         </dependency>
 
     </dependencies>
