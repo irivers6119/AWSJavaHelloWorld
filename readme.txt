@@ -1,4 +1,4 @@
-1. Generate the SDK for IOS
+1. CRUD operations for Dynamo DB with AWS Java SDK
 
 
 
